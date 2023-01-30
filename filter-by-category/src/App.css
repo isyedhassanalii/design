@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+.category{
+  height: 100vh;
+  width: 100%;
+
+}
+.row{
+  display: flex;
+  padding: 25px 15px;
+
+}
+.col:first-child{
+  flex: 1;
+
+}
+.btns{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col:last-child{
+  flex: 4;
+}
+.btns button{
+  width: max-content;
+  padding: 5px 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  background-color: #ffff;
+  border-radius: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.btns button:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+.filterTitle{
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card{
+  width: 250px;
+  min-height: 300px;
+  box-shadow: 0 0 4px #000000;
+}
+.card .cardHeader img{
+  width: 100%;
+  min-height: 200px;
+  object-fit: cover;
+}
+.cardBody{
+  padding: 20px 0;
+
+}
+.titleProduct{
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #6d6d6d;
+  margin-bottom: 15px;
+}
+.priceProduct{
+  display: block;
+  text-align: center;
+}
+.hidden{
+  display: none;
+
+}
+.wishlist-icon{
+  color: red;
+    font-size: 15px;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,39 @@
+.main__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid grey;
+    width: 30%;
+    margin-top: 10px;
+    gap: 10;
+
+    
+}
+.product__img{
+    height: 200;
+    object-fit: cover;
+}
+.product__details{
+    display: flex;
+    justify-content: space-between;
+}
+.btn__add{
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+.btn__remove{
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #e53935;
+    color: white;
+}
